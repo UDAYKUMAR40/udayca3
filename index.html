@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Shop</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        
+        #home {
+            background-image: url('https://img.freepik.com/premium-photo/christmas-red-striped-gift-box-pink-background-creative-minimal-composition_149384-524.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            height: 100vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+        }
+
+        .line {
+            width: 50%;
+            height: 5px;
+            background-color: #e63946;
+            margin: 20px auto;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: rgb(236, 241, 238);
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            color: #fff;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-button {
+            background-color: #e63946;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #d62828;
+        }
+
+        
+        nav {
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            background-color: #e63946;
+        }
+
+        
+        #shop {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        #shop h2 {
+            font-size: 36px;
+            color: #e63946;
+            margin-bottom: 30px;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            font-size: 22px;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .product-card p {
+            color: #777;
+            font-size: 16px;
+        }
+
+        .product-card .buy-btn {
+            background-color: #e63946;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .product-card .buy-btn:hover {
+            background-color: #d62828;
+        }
+
+    
+        #contact {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+
+        #contact h2 {
+            color: #e63946;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        #contact p, #contact a {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        #contact a {
+            text-decoration: none;
+            color: #e63946;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="shopca3.html">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <h1>Find the Perfect Gift</h1>
+            <div class="line"></div>
+            <h2>Your One-Stop Gift Shop for Every Occasion</h2>
+            <p>Discover an amazing selection of gifts for birthdays, anniversaries, holidays, and more. Shop now for unique, thoughtful gifts!</p>
+            <a href="shopca3.html" class="cta-button">Start Shopping</a>
+        </section>
+    </header>
+
+
+
+    <footer>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <p>Need assistance or have a question? Reach out to us!</p>
+            <p>Email: <a href="udaykumar.me91@gmail.com">udaykumae.me91@gmail.com</a></p>
+            <p>Phone: +91 9142533546</p>
+            <p>Location: Ashok Nagar Kankarbarh Patna ,Bihar 800020</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
